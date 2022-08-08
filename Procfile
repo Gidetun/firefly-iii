@@ -1,4 +1,4 @@
-web: touch ./storage/database/database.sqlite
+web: touch /app/storage/database/database.sqlite
 web: php artisan migrate --seed
 web: php artisan firefly-iii:upgrade-database
 
